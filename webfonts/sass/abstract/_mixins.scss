@@ -1,0 +1,13 @@
+// @mixin flexmin($x:center) {
+//     display: flex;
+//     justify-content: $x;
+   
+    
+// }
+
+@mixin btnHover($bg,$color:$background) {
+    background-color: $bg;
+    color: $color;
+
+    border: black;
+}

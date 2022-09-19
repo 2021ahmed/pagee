@@ -1,0 +1,48 @@
+.sec1{
+    background-color: $light-color;
+}
+.sec1 .container .row-one{
+    
+
+& .box1{
+    display: flex;
+    padding: 0 14px;
+     width: calc(100% / 3 - 10px);
+    
+    padding: 10px;
+    margin-left: 2px;
+       .box1__icon{
+           display: flex;
+           justify-content: center;
+          
+           width: 80px;
+           & img{
+               width: 50px;
+               height: 60px;
+               padding: 5px;
+           }
+       }
+    &__content{
+       
+       margin-left: 5px;
+        .content__header{
+            color: $secondry-color;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            font-weight: 500;
+            font-size: 20px;
+           
+        }
+        .content__para{
+            color: $gray;
+            padding-left: 10px;
+            font-size: 14px;
+            line-height: 25px;
+              
+
+        }
+
+    }
+}
+
+}

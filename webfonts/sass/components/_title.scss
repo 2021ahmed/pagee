@@ -1,0 +1,14 @@
+.sec1 .container .title{
+   
+  &__header{
+    color:$dark-color;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  &__para{
+    color:$gray;
+    padding-bottom: 20px;
+  }
+}
